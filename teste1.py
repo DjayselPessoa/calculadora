@@ -1,6 +1,6 @@
-verdade = True;
+ativo = True;
 
-while verdade:
+while ativo:
     try:
         num1 = float(input("Número 1: "))
         if not -999999 <= num1 <= 999999:
@@ -18,6 +18,7 @@ while verdade:
         elif op == "*":
             print("O resultado da multiplicação é: ", num1 * num2)
         elif op == "s":
+            print("Desligando calculadora!")
             break;
         else:
             raise ValueError("OP não reconhecido!")
