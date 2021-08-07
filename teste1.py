@@ -4,19 +4,19 @@ while ativo:
     try:
         num1 = float(input("Número 1: "))
         if not -999999 <= num1 <= 999999:
-            raise ValueError(" - Erro1")
+            raise ValueError(" - número inválido!")
         num2 = float(input("Número 2: "))
         if not -999999 <= num2 <= 999999:
-            raise ValueError(" - Erro2")
+            raise ValueError(" - número inválido!")
         op = str(input("Operação ou s para sair: "))
         if op == "+" :
-            print("O resultado da soma é: ", num1 + num2)
+            print(" ",num1, " + ", num2, " = ", num1 + num2)
         elif op == "-":
-            print("O resultado da subtração é: ", num1 - num2)
+            print(" ",num1, " - ", num2, " = ", num1 - num2)
         elif op == "/":
-            print("O resultado da divisão é: ", num1 / num2)
+            print(" ",num1, " / ", num2, " = ", num1 / num2)
         elif op == "*":
-            print("O resultado da multiplicação é: ", num1 * num2)
+            print(" ",num1, " * ", num2, " = ", num1 * num2)
         elif op == "s":
             print("Desligando calculadora!")
             break;
@@ -27,7 +27,6 @@ while ativo:
 
     else:
         break
-
 
 
 
