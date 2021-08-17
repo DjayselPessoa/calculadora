@@ -10,13 +10,13 @@ while ativo:
             raise ValueError(" - número inválido!")
         op = str(input("Operação ou s para sair: "))
         if op == "+" :
-            print(" ",num1, " + ", num2, " = ", num1 + num2)
+            print(f"{num1}  +  {num2}  =  {num1 + num2}")
         elif op == "-":
-            print(" ",num1, " - ", num2, " = ", num1 - num2)
+            print(f"{num1}  -  {num2}  =  {num1 - num2}")
         elif op == "/":
-            print(" ",num1, " / ", num2, " = ", num1 / num2)
+            print(f"{num1}  /  {num2}  =  {num1 / num2}")
         elif op == "*":
-            print(" ",num1, " * ", num2, " = ", num1 * num2)
+            print(f"{num1}  *  {num2}  =  {num1 * num2}")
         elif op == "s":
             print("Desligando calculadora!")
             break;
